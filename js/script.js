@@ -1,3 +1,4 @@
-$('form#form').submit(function() {
-  alert('form submitted');
+$('form#form').submit(function(event) {
+  event.preventDefault();
+  alert('form submitted')
 });
