@@ -11,3 +11,7 @@ body {
 .container {
   margin-top: 60px;
 }
+
+.center-block {
+  float: none;
+}
