@@ -1,4 +1,5 @@
 $('form#form').submit(function(event) {
   event.preventDefault();
-  alert('form submitted')
+  const shoutInput = $('input#shout').val().toUpperCase();
+  $('.container').prepend('<h1>' + shoutInput + '</h1>');
 });
